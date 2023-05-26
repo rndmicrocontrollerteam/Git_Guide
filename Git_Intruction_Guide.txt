@@ -1,3 +1,4 @@
+########## Git Start ##########
 git init : meng inisiasi Git di folder
 git status : untuk melihat status file yang ada di stage
 git add <file> : untuk menambahkan file ke stage
@@ -14,3 +15,15 @@ git merge master : menggabungkan branch dengan master
 git branch -d : delete branch
 git rebase master : memulai file dari master terbaru
 
+
+########## GitHub Connect #########
+git config --global user.email :email githu
+git config --global user.name : nama github
+git remote -v : list link remote yang tersedia
+git remote add origin <link> : menyambungkan github dengan git pc
+git push -u origin master : mengirim file ke github
+git clone <link>  : fork dari repo github
+git fetch  : mengupdate kemajuan repo github ke pc
+git pull  : mengirim file terbaru ke pc apabila ada merge conflict
+
+########## Git Term Explaination ##########
