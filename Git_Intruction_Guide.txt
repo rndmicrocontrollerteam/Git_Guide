@@ -7,7 +7,7 @@ git branch : melihat list branch
 git switch -c <name> : membuat branch baru
 git checkout -b <name> :membuat branch baru juga
 git checkout :cek berada di branch apa
-git checkout <hash/nomer unik 7digit> : kembali ke commit yang dimaksud
+git checkout <hash> : kembali ke commit yang dimaksud
 git log : melihat commit detail
 git log --oneline : melihat commit ringkas
 git merge master : menggabungkan branch dengan master
