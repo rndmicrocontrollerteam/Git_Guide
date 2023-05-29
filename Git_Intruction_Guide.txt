@@ -1,18 +1,19 @@
-git init : meng inisiasi Git di folder
-git status : untuk melihat status file yang ada di stage
-git add <file> : untuk menambahkan file ke stage
-git add . : menambahkan semua file ke stage
-git commit -m "<bebas>" : memasukan pesan pada commit
-git branch : melihat list branch
-git switch -c <name> : membuat branch baru
-git checkout -b <name> :membuat branch baru juga
-git checkout :cek berada di branch apa
-git checkout <hash> : kembali ke commit yang dimaksud
-git log : melihat commit detail
-git log --oneline : melihat commit ringkas
-git merge master : menggabungkan branch dengan master
-git branch -d : delete branch
-git rebase master : memulai file dari master terbaru
+git init 			: meng inisiasi Git di folder
+git status 			: untuk melihat status file yang ada di stage
+git add <file>			: untuk menambahkan file ke stage
+git add .			: menambahkan semua file ke stage
+git commit -m "<bebas>" 	: memasukan pesan pada commit
+git reset HEAD 		: untuk membatalkan commit
+git branch 			: melihat list branch
+git switch -c <name> 		: membuat branch baru
+git checkout -b <name> 	:membuat branch baru juga
+git checkout 			:cek berada di branch apa
+git checkout <hash> 		: kembali ke commit yang dimaksud
+git log 			: melihat commit detail
+git log --oneline 		: melihat commit ringkas
+git merge master 		: menggabungkan branch dengan master
+git branch -d 			: delete branch
+git rebase master		: memulai file dari master terbaru
 
 ########## GitHub Connect #########
 git config --global user.email :email githu
