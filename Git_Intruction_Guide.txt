@@ -36,3 +36,5 @@ clone : mengambil repo dari remote
 push : mengirim commit ke repo
 pull : mengambil commit dari repo
 pull request : meminta pemilik repo untuk menggunakan perubahan yang telah dibuat
+
+SSH Key
