@@ -1,0 +1,22 @@
+Config SSH Key for github
+Open terminal
+ssh-keygen -t ed25519 -C <email>
+eval "$(ssh-agent -s)"
+~/.ssh/config
+touch ~/.ssh/config
+vim ~/.ssh/config
+
+#### Open vim ####
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+ <save>
+#### Open In terminal ####
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+
+#### Open Your GitHub ####
+Setting > SSH and GPG keys > New SSH key > input your SSH id in terminal to column Key > add SSH key
+
+#### Back to terminal #### 
+ssh -T git@github.com > yes
